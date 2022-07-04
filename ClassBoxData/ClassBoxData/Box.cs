@@ -18,13 +18,13 @@ namespace ClassBoxData
         }
 
 
-        private double Lenght
+       public double Lenght
         {
             get
             {
                 return this.length;
             }
-            set
+             set
             {
                 if (value <= 0)
                 {
@@ -34,13 +34,13 @@ namespace ClassBoxData
             }
         }
 
-        private double Width
+        public double Width
         {
             get
             {
                 return this.width;
             }
-            set
+             set
             {
                 if (value <= 0)
                 {
@@ -51,7 +51,7 @@ namespace ClassBoxData
         }
 
        
-        private double Height
+        public double Height
         {
             get
             {
